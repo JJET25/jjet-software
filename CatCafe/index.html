@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Cafe - La casa del gato Gazzu</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <main class="main-container">
+    <header class="header">
+      <img class="logo" src="https://gatogazzu.org/wp-content/uploads/2021/03/Screenshot-2022-07-27-at-16.10.36.png" alt="Logo">
+      <h1>La casa del gato Gazzu</h1>
+      <p id = "parrafo1" class="tagline">Tu lugar para disfrutar la compañía de tu mejor amigo pero con la panza llena 🙀</p>
+      <img class="header-img" src="https://gatogazzu.org/wp-content/uploads/2021/09/catfecito-4.jpeg" alt="Catfecito">
+      <button class="btn" onclick="cambiarBienvenida()">Saludar</button>
+    </header>
+
+    <section class="menu">
+      <h2>Menú</h2>
+      <p>El menú hecho para ti y tus amigos felinos.</p>
+      <div class="fotos-menu">
+        <img src="https://gatogazzu.org/wp-content/uploads/2024/02/burger-.jpg" alt="Burger">
+        <img src="https://gatogazzu.org/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-04-at-4.36.56-PM.jpeg" alt="Combo">
+        <img src="https://gatogazzu.org/wp-content/uploads/2024/02/cerveza-.jpg" alt="Cerveza">
+        <img src="https://gatogazzu.org/wp-content/uploads/2024/02/naranjada-.jpg" alt="Bebida">
+      </div>
+    </section>
+
+    <section class="staff">
+      <h2>Staff Felino</h2>
+      <div class="fotos-staff">
+        <img id="gato1" src="https://gatogazzu.org/wp-content/uploads/2021/06/astro-1.jpg" alt="Astro">
+        <img id="gato2" src="https://gatogazzu.org/wp-content/uploads/2021/06/higo2.jpg" alt="Higo">
+        <img id="gato3" src="https://gatogazzu.org/wp-content/uploads/2021/06/coco1.jpg" alt="Coco">
+        <img id="gato4" src="https://gatogazzu.org/wp-content/uploads/2021/06/haley-1.jpg" alt="Haley">
+      </div>
+
+      <button class="btn" onclick="cambiarFotosStaff()">El verdadero staff</button>
+    </section>
+
+    <section class="info">
+      <h2>Ubicación</h2>
+      <p>Av. Baja California 266, Col. Condesa. Contamos con todas las normas de seguridad.</p>
+      <ul class="contacto">
+        <li><strong>Teléfono:</strong> 5564989760</li>
+        <li><strong>Horario:</strong> Mar - Dom | 12:00 - 20:00</li>
+      </ul>
+      <button class="btn" onclick="window.location.href='https://www.google.com/maps?cid=2823766329473519915&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYASAA&hl=es-419&gl=MX&source=embed' "> Ver Mapa 📍 </button>
+    </section>
+
+    <footer class="info">
+      <div class="theme-footer">
+        <button id="theme-toggle" class="btn-theme">✷</button>
+        <button class="btn" onclick="window.location.href='https://gatogazzu.org/catfecito/;' "> Pagina Oficial </button>
+      </div>
+    </footer>
+  </main>
+
+</body>
+</html>
